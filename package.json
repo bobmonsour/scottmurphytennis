@@ -1,0 +1,19 @@
+{
+  "name": "smt_11ty",
+  "version": "1.0.0",
+  "description": "This is the 11ty project for generating the scottmurphytennis.com website.",
+  "main": ".eleventy.js",
+  "scripts": {
+    "watch:eleventy": "npx @11ty/eleventy --serve",
+    "watch:sass": "npx sass sass:_site/css --watch",
+    "start": "npm run watch:eleventy & npm run watch:sass",
+    "build": "sass sass:_site/css && eleventy"
+  },
+  "keywords": [],
+  "author": "Bob Monsour",
+  "license": "ISC",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.12.1",
+    "sass": "^1.43.3"
+  }
+}
