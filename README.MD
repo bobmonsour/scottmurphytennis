@@ -1,13 +1,11 @@
-# Jekyll-based website for scottmurphytennis.net
+# 11ty--based website for scottmurphytennis.net
 
-This site is based on the theme called Menca.
+This site was initially built using Jekyll. I am converting it to use 11ty.
 
-You can find the theme here:
+This site is based on the theme called Menca (formerly a Jekyll theme).
 
-https://jekyllthemes.io/theme/menca-blog-jekyll-theme
-
-And the website here:
+The website here:
 
 https://www.scottmurphytennis.net/
 
-It is hosted on a Dreamhost shared server.
+It is currently hosted on a Dreamhost shared server. Once the conversion to 11ty is complete, it will be hosted on Netlify.
