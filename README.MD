@@ -1,4 +1,4 @@
-# 11ty--based website for scottmurphytennis.net
+# 11ty-based website for scottmurphytennis.net
 
 This site was initially built using Jekyll. I am converting it to use 11ty.
 
