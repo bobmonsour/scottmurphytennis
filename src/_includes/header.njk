@@ -1,0 +1,46 @@
+<!-- begin header -->
+<header class="header" id="top">
+  <div class="container">
+    <div class="row">
+      <div class="header__inner col col-12">
+
+        <div class="logo">
+          <a class="logo__link" href="{{ site.baseurl }}/">
+          {% if site.logo %}
+            <img class="logo__image" src="{{ site.baseurl }}{{ site.logo }}" alt="{{ site.title }}">
+          {% else %}
+            {{ site.headline }}
+          {% endif %}
+          </a>
+        </div>
+
+        <nav class="main-nav">
+          <div class="main-nav__box">
+            <div class="nav__icon-close">
+              <i class="ion ion-md-close"></i>
+            </div>
+            <div class="nav__title">Menu</div>
+            <ul class="nav__list list-reset">
+              <li class="nav__item">
+                <a href="{{ site.baseurl }}/" class="nav__link">Home</a>
+              </li>
+              {% for navpage in collections.navpage | sort(false, false, 'data.navweight') %}
+                {% if navpage.data.navweight %}
+                  <li class="nav__item">
+                    <a href="{{ navpage.data.permalink }}" {% if navpage.data.permalink == page.url %} class="active"{% endif %} class="nav__link">{{ navpage.data.nav }}</a>
+                  </li>
+                {% endif %}
+              {% endfor %}
+            </ul>
+          </div>
+        </nav>
+
+        <div class="nav-button">
+          <i class="nav__icon icon__menu ion ion-md-menu"></i>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</header>
+<!-- end header -->

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{% include "head.njk" %}
+
+<body>
+
+  {% if site.environment == "production" and site.googleAnalytics %}
+    {% include "google-analytics.html" %}
+  {% endif %}
+
+  {% include "header.njk" %}
+
+  <!-- begin content -->
+  <main class="content" aria-label="Content">
+    {{ content | safe }}
+  </main>
+  <!-- end content -->
+
+  {% include "footer.njk" %}
+
+  <script src="{{ site.baseurl }}/js/scripts.js"></script>
+  <script src="{{ site.baseurl }}/js/common.js"></script>
+</body>
+
+</html>

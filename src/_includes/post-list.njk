@@ -1,0 +1,26 @@
+<div class="article col col-4 col-d-6 col-t-12">
+  <div class="article__inner">
+
+    <div class="article__head">
+
+      {% if image %}
+      <a class="article__image" href="{{ site.baseurl }}{{ permalink }}">
+        <img class="lazy" data-src="{{ site.baseurl }}{{ image }}" alt="{{ title }}">
+      </a>
+      {% endif %}
+
+    </div>
+
+    <div class="article__content">
+
+      <h2 class="article__title">
+        <a href="{{ site.baseurl }}{{ permalink }}">{{ title }}</a>
+      </h2>
+
+      {% if description %}
+        <p class="article__excerpt">{{ description }}</p>
+      {% endif %}
+
+    </div>
+  </div>
+</div>

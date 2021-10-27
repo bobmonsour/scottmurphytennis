@@ -5,6 +5,8 @@ module.exports = {
 
   // Site settings
   title: "Marin Tennis Lessons | Scott Murphy Tennis Pro",
+  headline: "Scott Murphy Tennis",
+  description: "Scott Murphy is one of the most sought after USPTA tennis pros in California. He is a top ranked senior open player and former multi-sport athlete at Cal Berkeley.",
   url: "https://www.scottmurphytennis.net",
   baseurl: "",
   color_scheme: "auto",
@@ -24,10 +26,10 @@ module.exports = {
   },
 
   // Mailchimp settings
-  mailchimp: enable,
+  mailchimp: "enable",
   mailchimp__identifier: "https://scottmurphytennis.us5.list-manage.com/subscribe/post?u=c15be8938f69aa462708fe3d9&amp;id=c781bf7d50",
   mailchimp__input__text: "Subscribe here",
-  mailchimp__button__text: "Subscribe to updates"
+  mailchimp__button__text: "Subscribe to updates",
 
   // Image gallery settings
   gallery: {

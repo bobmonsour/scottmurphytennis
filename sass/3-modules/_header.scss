@@ -6,7 +6,7 @@
     align-items: center;
     flex-wrap: wrap;
     padding: 22px $base-spacing-unit;
-  
+
     @media only screen and (max-width: $desktop) {
       padding: 40px $base-spacing-unit;
     }
@@ -190,8 +190,7 @@
     margin-right: 12px;
   }
 
-  .icon__menu,
-  .icon__search {
+  .icon__menu {
     padding-top: 10px;
     transition: color .25s ease;
 

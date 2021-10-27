@@ -5,17 +5,11 @@ document.addEventListener("DOMContentLoaded", function() {
     menuOpenIcon = document.querySelector(".icon__menu"),
     menuCloseIcon = document.querySelector(".nav__icon-close"),
     menuList = document.querySelector(".main-nav"),
-    searchOpenIcon = document.querySelector(".icon__search"),
-    searchCloseIcon = document.querySelector(".search__close"),
-    searchInput = document.querySelector(".search__text"),
-    search = document.querySelector(".search"),
-    searchBox = document.querySelector(".search__box"),
     toggleTheme = document.querySelector(".toggle-theme"),
     btnScrollToTop = document.querySelector(".top");
 
-
   /* =======================================================
-  // Menu + Search + Theme Switcher
+  // Menu + Theme Switcher
   ======================================================= */
   menuOpenIcon.addEventListener("click", () => {
     menuOpen();
@@ -28,35 +22,10 @@ document.addEventListener("DOMContentLoaded", function() {
   function menuOpen() {
     menuList.classList.add("is-open");
   }
-  
+
   function menuClose() {
     menuList.classList.remove("is-open");
   }
-
-  searchOpenIcon.addEventListener("click", () => {
-    searchOpen();
-  });
-
-  searchCloseIcon.addEventListener("click", () => {
-    searchClose();
-  });
-
-  function searchOpen() {
-    search.classList.add("is-visible");
-    setTimeout(function () {
-      searchInput.focus();
-    }, 250);
-  }
-
-  function searchClose() {
-    search.classList.remove("is-visible");
-  }
-
-  searchBox.addEventListener("keydown", function(event) {
-    if (event.target == this || event.keyCode == 27) {
-      search.classList.remove('is-visible');
-    }
-  });
 
   if (toggleTheme) {
     toggleTheme.addEventListener("click", () => {
@@ -77,19 +46,6 @@ document.addEventListener("DOMContentLoaded", function() {
       document.documentElement.setAttribute("dark", "");
     }
   }
-
-
-  // =====================
-  // Simple Jekyll Search
-  // =====================
-  SimpleJekyllSearch({
-    searchInput: document.getElementById("js-search-input"),
-    resultsContainer: document.getElementById("js-results-container"),
-    json: "/search.json",
-    searchResultTemplate: '{article}',
-    noResultsText: '<h3 class="no-results">No results found</h3>'
-  });
-
 
   /* =======================
   // Responsive Videos

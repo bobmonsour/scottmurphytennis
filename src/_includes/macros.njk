@@ -1,0 +1,17 @@
+{% macro article(post) %}
+  <div class="article col col-4 col-d-6 col-t-12">
+    <div class="article__inner">
+      <div class="article__head">
+        <a class="article__image" href="{{ site.baseurl }}{{ post.data.permalink }}">
+          <img class="lazy" data-src="{{ site.baseurl }}{{ post.data.image }}" alt="{{ post.data.title }}">
+        </a>
+      </div>
+      <div class="article__content">
+        <h2 class="article__title">
+          <a href="{{ site.baseurl }}{{ post.data.permalink }}">{{ post.data.title }}</a>
+        </h2>
+        <p class="article__excerpt">{{ post.data.description }}</p>
+      </div>
+    </div>
+  </div>
+{% endmacro %}

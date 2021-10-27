@@ -1,0 +1,35 @@
+---
+layout: default
+---
+
+<div class="page-head">
+  <div class="container">
+    <div class="row">
+      {%if image %}
+        <div class="col col-12">
+          <div class="page-image">
+            <img class="lazy" data-src="{{site.baseurl}}{{image}}" alt="{{title}}">
+          </div>
+        </div>
+      {% endif %}
+
+      <div class="col col-12">
+        <div class="page__info">
+          <h1 class="page__title">{{ nav | escape }}</h1>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- begin page -->
+<div class="container animate">
+
+  <article class="page">
+    <div class="page__content">
+      {{ content | safe }}
+    </div>
+  </article>
+
+</div>
+<!-- end page -->
