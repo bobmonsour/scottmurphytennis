@@ -1,7 +1,7 @@
 module.exports = {
 
   // Environment (defaults to 'development'); when set to 'production', google analytics is loaded
-  env: "development",
+  env: "production",
 
   // Site settings
   title: "Marin Tennis Lessons | Scott Murphy Tennis Pro",
