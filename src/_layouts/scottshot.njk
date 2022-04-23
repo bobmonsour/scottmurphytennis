@@ -20,12 +20,12 @@ layout: default
           <h1 class="post__title">{{ title }}</h1>
 
           <div class="post__meta">
-            <a href="{% if site.env == "prod" %}{{ site.prod_url}}{% else %}{{site.dev_url}}{% endif %}/{{site.author.author__about}}/" class="post__author-image">
+            <a href="{% if site.env == 'prod' %}{{ site.prod_url}}{% else %}{{site.dev_url}}{% endif %}/{{site.author.author__about}}/" class="post__author-image">
               <img class="lazy" data-src="{% if site.env == "prod" %}{{ site.prod_url}}{% else %}{{site.dev_url}}{% endif %}/{{ site.author.author__avatar }}" alt="{{ site.author.author__name }}">
             </a>
 
             <div class="post__meta-bottom">
-              <a class="post__author" href="{% if site.env == "prod" %}{{ site.prod_url}}{% else %}{{site.dev_url}}{% endif %}/about/">{{ site.author.author__name }}</a>
+              <a class="post__author" href="{% if site.env == 'prod' %}{{ site.prod_url}}{% else %}{{site.dev_url}}{% endif %}/about/">{{ site.author.author__name }}</a>
             </div>
           </div>
 

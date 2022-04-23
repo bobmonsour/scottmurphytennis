@@ -5,7 +5,7 @@
       <div class="header__inner col col-12">
 
         <div class="logo">
-          <a class="logo__link" href="{% if site.env == "prod" %}{{ site.prod_url}}{% else %}{{site.dev_url}}{% endif %}/">
+          <a class="logo__link" href="{% if site.env == 'prod' %}{{ site.prod_url}}{% else %}{{site.dev_url}}{% endif %}/">
           {% if site.logo %}
             <img class="logo__image" src="{% if site.env == "prod" %}{{ site.prod_url}}{% else %}{{site.dev_url}}{% endif %}/{{ site.logo }}" alt="{{ site.title }}">
           {% else %}
@@ -22,7 +22,7 @@
             <div class="nav__title">Menu</div>
             <ul class="nav__list list-reset">
               <li class="nav__item">
-                <a href="{% if site.env == "prod" %}{{ site.prod_url}}{% else %}{{site.dev_url}}{% endif %}/" class="nav__link">Home</a>
+                <a href="{% if site.env == 'prod' %}{{ site.prod_url}}{% else %}{{site.dev_url}}{% endif %}/" class="nav__link">Home</a>
               </li>
               {% for navpage in collections.navpage | sort(false, false, 'data.navweight') %}
                 {% if navpage.data.navweight %}

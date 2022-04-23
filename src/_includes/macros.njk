@@ -2,13 +2,13 @@
   <div class="article col col-4 col-d-6 col-t-12">
     <div class="article__inner">
       <div class="article__head">
-        <a class="article__image" href="{% if site.env == "prod" %}{{ site.prod_url}}{% else %}{{site.dev_url}}{% endif %}{{ post.data.permalink }}">
+        <a class="article__image" href="{% if site.env == 'prod' %}{{ site.prod_url}}{% else %}{{site.dev_url}}{% endif %}{{ post.data.permalink }}">
           <img class="lazy" data-src="{% if site.env == "prod" %}{{ site.prod_url}}{% else %}{{site.dev_url}}{% endif %}{{ post.data.image }}" alt="{{ post.data.title }}">
         </a>
       </div>
       <div class="article__content">
         <h2 class="article__title">
-          <a href="{% if site.env == "prod" %}{{ site.prod_url}}{% else %}{{site.dev_url}}{% endif %}{{ post.data.permalink }}">{{ post.data.title }}</a>
+          <a href="{% if site.env == 'prod' %}{{ site.prod_url}}{% else %}{{site.dev_url}}{% endif %}{{ post.data.permalink }}">{{ post.data.title }}</a>
         </h2>
         <p class="article__excerpt">{{ post.data.description }}</p>
       </div>

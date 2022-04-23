@@ -4,7 +4,7 @@
     <div class="article__head">
 
       {% if image %}
-      <a class="article__image" href="{% if site.env == "prod" %}{{ site.prod_url}}{% else %}{{site.dev_url}}{% endif %}{{ permalink }}">
+      <a class="article__image" href="{% if site.env == 'prod' %}{{ site.prod_url}}{% else %}{{site.dev_url}}{% endif %}{{ permalink }}">
         <img class="lazy" data-src="{% if site.env == "prod" %}{{ site.prod_url}}{% else %}{{site.dev_url}}{% endif %}{{ image }}" alt="{{ title }}">
       </a>
       {% endif %}
@@ -14,7 +14,7 @@
     <div class="article__content">
 
       <h2 class="article__title">
-        <a href="{% if site.env == "prod" %}{{ site.prod_url}}{% else %}{{site.dev_url}}{% endif %}{{ permalink }}">{{ title }}</a>
+        <a href="{% if site.env == 'prod' %}{{ site.prod_url}}{% else %}{{site.dev_url}}{% endif %}{{ permalink }}">{{ title }}</a>
       </h2>
 
       {% if description %}

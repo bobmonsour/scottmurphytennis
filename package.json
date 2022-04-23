@@ -4,10 +4,12 @@
   "description": "This is the 11ty project for generating the scottmurphytennis.com website.",
   "main": ".eleventy.js",
   "scripts": {
-    "watch:eleventy": "npx @11ty/eleventy --serve",
-    "watch:sass": "npx sass sass:_site/css --watch",
-    "start": "cross-env ELEVENTY_ENV=dev npm run watch:eleventy & npm run watch:sass",
-    "build": "cross-env ELEVENTY_ENV=prod sass sass:_site/css && eleventy",
+    "watch:sass": "sass --watch sass:_site/css",
+    "watch:eleventy": "eleventy --serve",
+    "build:sass": "sass --no-source-map sass:_site/css",
+    "build:eleventy": "eleventy",
+    "start": "cross-env ELEVENTY_ENV=dev npm-run-all --parallel watch:*",
+    "build": "cross-env ELEVENTY_ENV=prod npm-run-all build:sass build:eleventy",
     "clean": "rimraf ./_site"
   },
   "keywords": [],
@@ -16,6 +18,7 @@
   "devDependencies": {
     "@11ty/eleventy": "^1.0.1",
     "cross-env": "^7.0.3",
+    "npm-run-all": "^4.1.5",
     "rimraf": "^3.0.2",
     "sass": "^1.50.1"
   }
