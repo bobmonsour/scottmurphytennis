@@ -1,11 +1,11 @@
 ---
 layout: scottshot
-title:  The high backhand
+title: The high backhand
 description: One of the smartest tactics you can use against virtually any player is to hit high bouncing balls to their backhands...
-date:   2013-06-28
+date: 2013-06-28
 permalink: /scott-shots/high-backhand/
-image:  '/images/high-backhand.jpg'
-tags:   post
+image: "/images/high-backhand.jpg"
+tags: post
 ---
 
 This Scott Shot was originally published on [Tennisplayer.net](http://www.tennisplayer.net) where Scott is a contributing editor.
@@ -38,7 +38,7 @@ One way to deal with the high ball is to avoid hitting it altogether. The simple
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/K_CrjKTA2V8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
->Moving back or moving forward allows you to avoid a high contact point.
+> Moving back or moving forward allows you to avoid a high contact point.
 
 With this strategy, you can comfortably hit a regular groundstroke. Remember that by moving back you’re giving away a lot of court, so make sure your shot includes enough height and depth to counteract that and keep your opponent from getting too far ahead, coming in, or finishing on the next ball.
 
@@ -85,7 +85,6 @@ In a recent experiment I proved to myself this is true as well for good two-hand
 Without fail they all took these balls before the top of the bounce, making contact no higher than shoulder height, and usually lower, within their normal range of comfortable contact heights. This is what you see in pro tennis as well. The stance is almost always neutral or, at more advanced levels, closed, with the front foot staying on the court throughout the swing.
 
 Afterwards, when I explained that I was researching this, my two-handed friends commented to a man that this was intentional and the most comfortable and effective way of playing a potentially high bouncing ball.
-
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/mZvG9BQ6UKg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -194,6 +193,6 @@ So there we have a wide range of options. I can’t stress enough that there are
 
 ### Even Richard Gasquet uses the slice backhand from time to time...
 
-![Gasquet-slice]({{site.baseurl}}/images/gasquet-slice.jpg#wide)
+![Gasquet-slice]({% if site.env == "prod" %}{{ site.prod_url}}{% else %}{{site.dev_url}}{% endif %}/images/gasquet-slice.jpg#wide)
 
 Note: The image at the top of this post is from the [Feel Tennis](https://www.feeltennis.net/how-to-deal-with-high-balls/) website by Tomaz Mencinger, noted tennis coach and author of that site.

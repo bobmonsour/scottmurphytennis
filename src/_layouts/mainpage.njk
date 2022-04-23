@@ -8,7 +8,7 @@ layout: default
       {%if image %}
         <div class="col col-12">
           <div class="page-image">
-            <img class="lazy" data-src="{{site.baseurl}}{{image}}" alt="{{title}}">
+            <img class="lazy" data-src="{% if site.env == "prod" %}{{ site.prod_url}}{% else %}{{site.dev_url}}{% endif %}{{image}}" alt="{{title}}">
           </div>
         </div>
       {% endif %}

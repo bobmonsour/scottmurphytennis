@@ -1,11 +1,11 @@
 ---
 layout: scottshot
-title:  Managing tension
+title: Managing tension
 description: Anyone who’s ever picked up a racquet, from beginners to world class players, has experienced tension while on the court...
-date:   2014-01-12
+date: 2014-01-12
 permalink: /scott-shots/managing-tension/
-image:  '/images/nd-tense.jpg'
-tags:   post
+image: "/images/nd-tense.jpg"
+tags: post
 ---
 
 Anyone who’s ever picked up a racquet, from beginners to world class players, has experienced tension while on the court. It’s that feeling of nervousness, anxiety, excitement or fear stemming from a number of possible situations. I’ve seen it countless number of times working with beginners who have a complete lack of understanding. As they struggle to process new information they tense up which only makes it worse. The more experienced player may experience tension from a variety of things…fear of losing, playing in front of a crowd, trying to hit too hard, wanting to impress someone, playing someone who’s “really good,” or from the frustration of having a bad day. Tension promotes a tightening of the muscles that leads to an inability to perform uninhibitedly or what is better known as choking.
@@ -18,7 +18,7 @@ Breathing properly can help immensely. I’m not a fan of the Sharapova/Azerenka
 
 ### Roger, relaxed...
 
-![RogerRelaxed]({{site.baseurl}}/images/rf-relaxed.jpg#wide)
+![RogerRelaxed]({% if site.env == "prod" %}{{ site.prod_url}}{% else %}{{site.dev_url}}{% endif %}/images/rf-relaxed.jpg#wide)
 
 It’s break point or match point and this knowledge can fester in a matter of seconds to the point where you wind up bricking a ball that a minute or two earlier you were ripping. As soon as those kinds of thoughts creep into my head I remind myself that I love this situation…this is exactly where I want to be…enjoy being in that moment whatever the outcome.
 

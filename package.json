@@ -6,14 +6,17 @@
   "scripts": {
     "watch:eleventy": "npx @11ty/eleventy --serve",
     "watch:sass": "npx sass sass:_site/css --watch",
-    "start": "npm run watch:eleventy & npm run watch:sass",
-    "build": "sass sass:_site/css && eleventy"
+    "start": "cross-env ELEVENTY_ENV=dev npm run watch:eleventy & npm run watch:sass",
+    "build": "cross-env ELEVENTY_ENV=prod sass sass:_site/css && eleventy",
+    "clean": "rimraf ./_site"
   },
   "keywords": [],
   "author": "Bob Monsour",
   "license": "ISC",
   "devDependencies": {
-    "@11ty/eleventy": "^0.12.1",
+    "@11ty/eleventy": "^1.0.1",
+    "cross-env": "^7.0.3",
+    "rimraf": "^3.0.2",
     "sass": "^1.50.1"
   }
 }

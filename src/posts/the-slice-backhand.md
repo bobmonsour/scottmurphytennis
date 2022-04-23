@@ -1,11 +1,11 @@
 ---
 layout: scottshot
-title:  The slice backhand
+title: The slice backhand
 description: I’m asked a lot about the slice backhand and what makes it tick. Here are what I feel are the essentials...
-date:   2013-10-23
+date: 2013-10-23
 permalink: /scott-shots/the-slice-backhand/
-image:  '/images/nadal-backhand-slice.jpg'
-tags:   post
+image: "/images/nadal-backhand-slice.jpg"
+tags: post
 ---
 
 I’m asked a lot about the slice backhand and what makes it tick. Here are what I feel are the essentials:
@@ -27,4 +27,4 @@ By the way, in a more condensed version, everything above applies to the backhan
 
 ### James Blake has his outside edge up...just like Rafa...
 
-![BlakeSlice]({{site.baseurl}}/images/james-blake-slice-backhand.jpg#wide)
+![BlakeSlice]({% if site.env == "prod" %}{{ site.prod_url}}{% else %}{{site.dev_url}}{% endif %}/images/james-blake-slice-backhand.jpg#wide)

@@ -5,7 +5,7 @@
 
 <body>
 
-  {% if site.env == "production" and site.googleAnalytics %}
+  {% if site.env == "prod" %}
     {% include "google-analytics.html" %}
   {% endif %}
 
@@ -19,8 +19,8 @@
 
   {% include "footer.njk" %}
 
-  <script src="{{ site.baseurl }}/js/scripts.js"></script>
-  <script src="{{ site.baseurl }}/js/common.js"></script>
+  <script src="{% if site.env == "prod" %}{{ site.prod_url}}{% else %}{{site.dev_url}}{% endif %}/js/scripts.js"></script>
+  <script src="{% if site.env == "prod" %}{{ site.prod_url}}{% else %}{{site.dev_url}}{% endif %}/js/common.js"></script>
 </body>
 
 </html>
