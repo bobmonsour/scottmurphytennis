@@ -18,4 +18,4 @@ The best way to practice dropping and lifting is during cooperative rallying wit
 
 ### Roger, sync'd and ready...
 
-![RogerBackhand]({% if site.env == "prod" %}{{ site.prod_url}}{% else %}{{site.dev_url}}{% endif %}/images/federer-backhand.jpg#wide)
+![RogerBackhand]({% if site.env == 'prod' %}{{ site.prod_url}}{% else %}{{site.dev_url}}{% endif %}/images/federer-backhand.jpg#wide)

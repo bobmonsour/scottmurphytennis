@@ -18,7 +18,7 @@ Breathing properly can help immensely. I’m not a fan of the Sharapova/Azerenka
 
 ### Roger, relaxed...
 
-![RogerRelaxed]({% if site.env == "prod" %}{{ site.prod_url}}{% else %}{{site.dev_url}}{% endif %}/images/rf-relaxed.jpg#wide)
+![RogerRelaxed]({% if site.env == 'prod' %}{{ site.prod_url}}{% else %}{{site.dev_url}}{% endif %}/images/rf-relaxed.jpg#wide)
 
 It’s break point or match point and this knowledge can fester in a matter of seconds to the point where you wind up bricking a ball that a minute or two earlier you were ripping. As soon as those kinds of thoughts creep into my head I remind myself that I love this situation…this is exactly where I want to be…enjoy being in that moment whatever the outcome.
 

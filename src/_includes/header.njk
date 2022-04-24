@@ -7,7 +7,7 @@
         <div class="logo">
           <a class="logo__link" href="{% if site.env == 'prod' %}{{ site.prod_url}}{% else %}{{site.dev_url}}{% endif %}/">
           {% if site.logo %}
-            <img class="logo__image" src="{% if site.env == "prod" %}{{ site.prod_url}}{% else %}{{site.dev_url}}{% endif %}/{{ site.logo }}" alt="{{ site.title }}">
+            <img class="logo__image" src="{% if site.env == 'prod' %}{{ site.prod_url}}{% else %}{{site.dev_url}}{% endif %}/{{ site.logo }}" alt="{{ site.title }}">
           {% else %}
             {{ site.headline }}
           {% endif %}

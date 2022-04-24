@@ -18,4 +18,4 @@ Another nice benefit of this shot is the incredible amount of topspin it produce
 
 ### Note Murray's racquet head above his hand...
 
-![MurrayForehand]({% if site.env == "prod" %}{{ site.prod_url}}{% else %}{{site.dev_url}}{% endif %}/images/murray_forehand.jpg#wide)
+![MurrayForehand]({% if site.env == 'prod' %}{{ site.prod_url}}{% else %}{{site.dev_url}}{% endif %}/images/murray_forehand.jpg#wide)

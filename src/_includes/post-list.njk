@@ -5,7 +5,7 @@
 
       {% if image %}
       <a class="article__image" href="{% if site.env == 'prod' %}{{ site.prod_url}}{% else %}{{site.dev_url}}{% endif %}{{ permalink }}">
-        <img class="lazy" data-src="{% if site.env == "prod" %}{{ site.prod_url}}{% else %}{{site.dev_url}}{% endif %}{{ image }}" alt="{{ title }}">
+        <img class="lazy" data-src="{% if site.env == 'prod' %}{{ site.prod_url}}{% else %}{{site.dev_url}}{% endif %}{{ image }}" alt="{{ title }}">
       </a>
       {% endif %}
 
