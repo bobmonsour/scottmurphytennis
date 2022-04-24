@@ -1,11 +1,9 @@
 ---
-layout: scottshot
-title:  Find and use what works best for you
+title: Find and use what works best for you
 description: This summer while teaching in Italy, I had the great pleasure of working with Vejdi Ural from Istanbul, Turkey...
-date:   2013-03-28
+date: 2013-03-28
 permalink: /scott-shots/find-use-works-best/
-image:  '/images/federer-serve-technique.jpg'
-tags:   post
+image: "/images/federer-serve-technique.jpg"
 ---
 
 This summer while teaching in Italy, I had the great pleasure of working with Vejdi Ural from Istanbul, Turkey. Vejdi, like so many players who are very passionate about tennis and improving their games, had just spent two weeks in London watching Wimbledon. More than any other part of his game he sought to improve his serve (smart!) and when we started it was apparent that Vejdi was combining visual images of many of the great players he’d just watched. It was also apparent that this “gulash” serve as we would come to call it wasn’t the right one for Vejdi because there were just too many ingredients.

@@ -1,11 +1,9 @@
 ---
-layout: scottshot
 title: The slice backhand
 description: I’m asked a lot about the slice backhand and what makes it tick. Here are what I feel are the essentials...
 date: 2013-10-23
 permalink: /scott-shots/the-slice-backhand/
 image: "/images/nadal-backhand-slice.jpg"
-tags: post
 ---
 
 I’m asked a lot about the slice backhand and what makes it tick. Here are what I feel are the essentials:

@@ -1,6 +1,8 @@
-module.exports = function(eleventyConfig) {
+const pluginRss = require("@11ty/eleventy-plugin-rss");
+
+module.exports = function (eleventyConfig) {
   eleventyConfig.setBrowserSyncConfig({
-    files: './_site/css/**/*.css'
+    files: "./_site/css/**/*.css",
   });
 
   // Copy the css/images/js/data to their respective _site dirs
@@ -13,8 +15,11 @@ module.exports = function(eleventyConfig) {
   // Shortcode for the current year
   eleventyConfig.addShortcode("year", () => `${new Date().getFullYear()}`);
 
+  eleventyConfig.addPlugin(pluginRss);
+  eleventyConfig.addLiquidFilter("dateToRfc3339", pluginRss.dateToRfc3339);
+
   eleventyConfig.addFilter("debugger", (...args) => {
-    console.log(...args)
+    console.log(...args);
     debugger;
   });
 
@@ -27,7 +32,7 @@ module.exports = function(eleventyConfig) {
       output: "_site",
       includes: "_includes",
       layouts: "_layouts",
-      data: "_data"
-    }
-  }
-}
+      data: "_data",
+    },
+  };
+};

@@ -1,11 +1,9 @@
 ---
-layout: scottshot
 title: Slotting
 description: Virtually every stroke contains a “slotted” position of the racquet...
 date: 2013-05-28
 permalink: /scott-shots/slotting/
 image: "/images/slotting1.jpg"
-tags: post
 ---
 
 Virtually every stroke contains a “slotted” position of the racquet. It occurs at the moment just before the racquet is moved towards the ball. Acquiring this position is extremely important to consistently good shot making. On forehand and backhand groundstrokes, when the racquet is slotted the butt of the handle should point towards the incoming ball. Nick Bollettieri calls it “shining the flashlight in the eyes of the ball.” This puts the wrist in a laid back position of stability that should be maintained for a majority of the forward swing.

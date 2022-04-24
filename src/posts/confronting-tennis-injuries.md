@@ -1,11 +1,9 @@
 ---
-layout: scottshot
-title:  Confronting tennis injuries
+title: Confronting tennis injuries
 description: Over a lifetime of playing tennis (with a lot of baseball and football thrown in), I’ve incurred quite an array of injuries along the way...
-date:   2013-12-22
-image:  '/images/tennis-injuries.jpg'
+date: 2013-12-22
+image: "/images/tennis-injuries.jpg"
 permalink: /scott-shots/confronting-tennis-injuries/
-tags:   post
 ---
 
 Over a lifetime of playing tennis (with a lot of baseball and football thrown in), I’ve incurred quite an array of injuries along the way. From top to bottom—shoulder (partially torn rotator cuff), back (lower back pain), elbow (tennis and golfer’s elbow), wrist (numerous sprains), hip (bursitis), knee (torn plica cartilage), ankle (numerous rolls) and foot (plantar fasciitis, hammer toe, neuromas) injuries in varying degrees of severity. Not to mention plenty of pulled muscles. Granted I play more tennis than most but injuries in tennis, particularly competitive tennis are a given.

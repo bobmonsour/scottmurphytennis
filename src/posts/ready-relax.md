@@ -1,11 +1,9 @@
 ---
-layout: scottshot
 title: Ready...relax
 description: A lack of readiness is an all too common trait in many tennis players...
 date: 2013-04-28
 permalink: /scott-shots/ready-relax/
 image: "/images/ready-relax.jpg"
-tags: post
 ---
 
 A lack of readiness is an all too common trait in many tennis players. It’s the old “hit and stand” syndrome that you see from beginners certainly, but also from more experienced players. The less ready any player is between shots, the greater the likelihood that they’ll be anything but relaxed and in control when hitting the ball. Have you ever really noticed what the world’s best players are doing between shots when you watch a match on TV? Granted, the ball tends to move alot faster at that level then general club play but the point is that you rarely see them flat-footed and here are some reasons why:

@@ -1,11 +1,9 @@
 ---
-layout: scottshot
 title: Synchronize your body to the ball
 description: A very common problem I see often on the court is that players are too upright when hitting their shots...
 date: 2013-11-13
 permalink: /scott-shots/synchronize-body-ball/
 image: "/images/rafael-nadal-forehand.jpg"
-tags: post
 ---
 
 A very common problem I see often on the court is that players are too upright when hitting their shots. This results in the racquet having to compensate and can lead to errors. Part of the problem is caused by lack of distance between the feet. When you put more distance between your feet your legs will be more inclined to bend. Obviously there’s a limit to how much distance but somewhat greater than shoulder width apart is a good starting point.

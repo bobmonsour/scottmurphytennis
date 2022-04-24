@@ -1,11 +1,9 @@
 ---
-layout: scottshot
-title:  The invisible alley
+title: The invisible alley
 description: A few years ago I was involved in the Osmosis Clinic at Indian Wells in conjunction with the big pro tournament there now called the BNP Paribas Open...
-date:   2013-03-28
+date: 2013-03-28
 permalink: /scott-shots/the-invisible-alley/
-image:  '/images/invisible-alley.jpg'
-tags:   post
+image: "/images/invisible-alley.jpg"
 ---
 
 A few years ago I was involved in the Osmosis Clinic at Indian Wells in conjunction with the big pro tournament there now called the BNP Paribas Open. The clinic was the idea of my pal John Yandell, creator of Tennisplayer.net and it was a big success It was in conjunction with this clinic that I had the pleasure to meet and discuss tennis with the great Welby Van Horn, considered by many to be the greatest teaching pro the game has ever known (and author of Secrets of a True Master). During our discussions about a variety of things Welby mentioned his “invisible alley” concept.

@@ -1,11 +1,9 @@
 ---
-layout: scottshot
 title: The two secrets of timing
 description: Of all the things I'll point out during the course of a day of tennis instruction, late swings rank right at the top...
-date:   2021-09-10
+date: 2021-09-10
 permalink: /scott-shots/two-secrets-to-great-timing/
-image:  '/images/two-secrets-to-great-timing.jpg'
-tags:   post
+image: "/images/two-secrets-to-great-timing.jpg"
 ---
 
 Of all the things I'll point out during the course of a day of tennis instruction, late swings rank right at the top. These late swings happen for a variety of reasons: your preparation is lax, your mind's focused on some mechanical aspect of the stroke you're hitting, you're distracted by your opponent or the part of the court you want to hit to, or you simply misread the variables of the approaching ball.

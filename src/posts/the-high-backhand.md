@@ -1,11 +1,9 @@
 ---
-layout: scottshot
 title: The high backhand
 description: One of the smartest tactics you can use against virtually any player is to hit high bouncing balls to their backhands...
 date: 2013-06-28
 permalink: /scott-shots/high-backhand/
 image: "/images/high-backhand.jpg"
-tags: post
 ---
 
 This Scott Shot was originally published on [Tennisplayer.net](http://www.tennisplayer.net) where Scott is a contributing editor.

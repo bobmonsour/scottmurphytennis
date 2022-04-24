@@ -1,11 +1,9 @@
 ---
-layout: scottshot
-title:  Efficient practice
+title: Efficient practice
 description: Something I hear a lot from players is that despite practicing a great deal and feeling good about whatever it was they practiced, once they play a match it seems like everything they worked on goes by the wayside...
-date:   2013-09-13
+date: 2013-09-13
 permalink: /scott-shots/efficient-practice/
-image:  '/images/court-with-ball-machine.jpg'
-tags:   post
+image: "/images/court-with-ball-machine.jpg"
 ---
 
 Something I hear a lot from players is that despite practicing a great deal and feeling good about whatever it was they practiced, once they play a match it seems like everything they worked on goes by the wayside. Generally speaking, the culprit here is the predictability of their practice. Say, for example, you’ve been working on your forehand model using a ball machine. To a certain extent this can be very valuable because the repetition and lack of pressure allow you to focus on the technical aspects you want to clean up. But always knowing where the ball will bounce is deceiving. During match play balls hit to you will vary dramatically from shot to shot. If you’re strictly using a ball machine you can combat this by having it oscillate (if it has that feature) and or position yourself from shot to shot in places that make it more difficult to play the next ball. Also remember to vary the kinds of feeds it gives you by changing their speed, height and depth.

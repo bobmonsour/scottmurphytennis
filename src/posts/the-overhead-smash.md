@@ -1,11 +1,9 @@
 ---
-layout: scottshot
-title:  The overhead smash
+title: The overhead smash
 description: The overhead in tennis is one of the least practiced shots...
-date:   2014-03-06
+date: 2014-03-06
 permalink: /scott-shots/overhead-smash/
-image:  '/images/overhead-smash.jpg'
-tags:   post
+image: "/images/overhead-smash.jpg"
 ---
 
 The overhead in tennis is one of the least practiced shots. The reason, in my opinion, is because the expectations for this shot are very high…it’s potentially a lethal, crowd pleasing, confidence building point ender, and when it’s performed poorly it can ruin your day, let alone your match outcome. It’s also not the easiest shot to perform…kind of like trying to hit a serve with a twenty foot high toss while moving in different directions. Too many players are happy to make a couple of decent overheads in practice or warmup and then stop before the potential errors start to creep in. Those are the ones you want to get up to net and lob like crazy! So here are some thoughts about a practice progression to try and simplify and strengthen this very important shot.
