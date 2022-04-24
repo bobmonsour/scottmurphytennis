@@ -2,4 +2,4 @@ Todo Items
 
 SASS
 
-- Fix warnings (to show, run rimraf, then start)
+- Fix SASS/CSS warnings (to show, run rimraf, then start)
