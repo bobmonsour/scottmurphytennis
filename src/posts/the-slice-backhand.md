@@ -27,4 +27,4 @@ By the way, in a more condensed version, everything above applies to the backhan
 
 ### James Blake has his outside edge up...just like Rafa...
 
-![BlakeSlice]({% if site.env == 'prod' %}{{ site.prod_url}}{% else %}{{site.dev_url}}{% endif %}/images/james-blake-slice-backhand.jpg#wide)
+![BlakeSlice](/images/james-blake-slice-backhand.jpg#wide)

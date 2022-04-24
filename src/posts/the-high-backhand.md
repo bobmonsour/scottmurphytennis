@@ -193,6 +193,6 @@ So there we have a wide range of options. I can’t stress enough that there are
 
 ### Even Richard Gasquet uses the slice backhand from time to time...
 
-![Gasquet-slice]({% if site.env == 'prod' %}{{ site.prod_url}}{% else %}{{site.dev_url}}{% endif %}/images/gasquet-slice.jpg#wide)
+![Gasquet-slice](/images/gasquet-slice.jpg#wide)
 
 Note: The image at the top of this post is from the [Feel Tennis](https://www.feeltennis.net/how-to-deal-with-high-balls/) website by Tomaz Mencinger, noted tennis coach and author of that site.

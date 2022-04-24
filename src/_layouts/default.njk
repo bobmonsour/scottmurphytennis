@@ -19,8 +19,8 @@
 
   {% include "footer.njk" %}
 
-  <script src="{% if site.env == 'prod' %}{{ site.prod_url}}{% else %}{{site.dev_url}}{% endif %}/js/scripts.js"></script>
-  <script src="{% if site.env == 'prod' %}{{ site.prod_url}}{% else %}{{site.dev_url}}{% endif %}/js/common.js"></script>
+  <script src="/js/scripts.js"></script>
+  <script src="/js/common.js"></script>
 </body>
 
 </html>

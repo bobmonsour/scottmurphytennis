@@ -28,4 +28,4 @@ A lack of readiness is an all too common trait in many tennis players. It’s th
 
 ### We need to relax like Roger...
 
-![Relax]({% if site.env == 'prod' %}{{ site.prod_url}}{% else %}{{site.dev_url}}{% endif %}/images/federer-relaxed.jpg)
+![Relax](/images/federer-relaxed.jpg)

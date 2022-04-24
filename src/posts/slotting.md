@@ -22,4 +22,4 @@ Learn what it feels like to slot the handle on all your shots and then move that
 
 ### Roger, fully slotted...
 
-![RogerSlotted]({% if site.env == 'prod' %}{{ site.prod_url}}{% else %}{{site.dev_url}}{% endif %}/images/slotting2.jpg#wide)
+![RogerSlotted](/images/slotting2.jpg#wide)
