@@ -37,32 +37,32 @@ module.exports = {
 
   // Image gallery settings
   gallery: {
-    gallery__title: "Scott's Paradise court in Ross, California",
+    gallery__title: "Scenes from around the pro tour",
     gallery__columns: 3,
     gallery__images: [
       {
         alt: "First image of the Paradise court",
-        url: "/images/paradise1.jpg",
+        url: "/images/gallery-roger-federer.jpg",
       },
       {
         alt: "Second image of the Paradise court",
-        url: "/images/paradise2.jpg",
+        url: "/images/gallery-emma-raducanu.jpg",
       },
       {
         alt: "Third image of the Paradise court",
-        url: "/images/paradise3.jpg",
+        url: "/images/gallery-rafael-nadal.jpg",
       },
       {
         alt: "Fourth image of the Paradise court",
-        url: "/images/paradise4.jpg",
+        url: "/images/gallery-garbine-muguruza.jpg",
       },
       {
         alt: "Fifth image of the Paradise court",
-        url: "/images/paradise5.jpg",
+        url: "/images/gallery-carlos-alcaraz.jpg",
       },
       {
         alt: "Sixth image of the Paradise court",
-        url: "/images/paradise6.jpg",
+        url: "/images/gallery-novak-djokovic.jpg",
       },
     ],
   },
