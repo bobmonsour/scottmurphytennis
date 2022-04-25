@@ -13,5 +13,5 @@ layout: default
       {{ article(post) }}
     {% endfor %}
   </div>
-  <h2><a href="scott-shots/">See more Scott Shots...</a></h2>
+  <h2><a href="scott-shots/">Click for more Scott Shots...</a></h2>
 </div>
