@@ -4,10 +4,14 @@ $container-base-width: 1140px;
 $container-offset: $base-spacing-unit;
 
 $desktop: 1024px;
-$tablet:  768px;
-$mobile:  576px;
+$tablet: 768px;
+$mobile: 576px;
 
-$mq: ( $mobile:$columns, $tablet:$columns, $desktop:$columns );
+$mq: (
+  $mobile: $columns,
+  $tablet: $columns,
+  $desktop: $columns,
+);
 
 .container {
   max-width: $container-base-width;
@@ -53,93 +57,85 @@ $mq: ( $mobile:$columns, $tablet:$columns, $desktop:$columns );
   flex: auto;
 }
 
-
 @for $i from 0 through $columns {
   .col-#{$i} {
-    width: percentage( $i / $columns );
+    width: percentage(calc($i / $columns));
   }
 }
 
 @for $i from 0 through $columns {
   .push-#{$i} {
-    margin-left: percentage( $i / $columns );
+    margin-left: percentage(calc($i / $columns));
   }
 }
 
 @for $i from 0 through $columns {
   .pull-#{$i} {
-    margin-right: percentage( $i / $columns );
+    margin-right: percentage(calc($i / $columns));
   }
 }
 
-
 @each $key, $val in $mq {
-
   // DESKTOP
-  @media(max-width: $desktop) {
-
+  @media (max-width: $desktop) {
     @for $i from 0 through $columns {
       .col-d-#{$i} {
-        width: percentage( $i / $columns );
+        width: percentage(calc($i / $columns));
       }
     }
 
     @for $i from 0 through $columns {
       .push-d-#{$i} {
-        margin-left: percentage( $i / $columns );
+        margin-left: percentage(calc($i / $columns));
       }
     }
 
     @for $i from 0 through $columns {
       .pull-d-#{$i} {
-        margin-right: percentage( $i / $columns );
+        margin-right: percentage(calc($i / $columns));
       }
     }
   }
 
-
   // TABLET
-  @media(max-width: $tablet) {
-
+  @media (max-width: $tablet) {
     @for $i from 0 through $columns {
       .col-t-#{$i} {
-        width: percentage( $i / $columns );
+        width: percentage(calc($i / $columns));
       }
     }
 
     @for $i from 0 through $columns {
       .push-t-#{$i} {
-        margin-left: percentage( $i / $columns );
+        margin-left: percentage(calc($i / $columns));
       }
     }
 
     @for $i from 0 through $columns {
       .pull-t-#{$i} {
-        margin-right: percentage( $i / $columns );
+        margin-right: percentage(calc($i / $columns));
       }
     }
   }
 
   // MOBILE
-  @media(max-width: $mobile) {
-
+  @media (max-width: $mobile) {
     @for $i from 0 through $columns {
       .col-m-#{$i} {
-        width: percentage( $i / $columns );
+        width: percentage(calc($i / $columns));
       }
     }
 
     @for $i from 0 through $columns {
       .push-m-#{$i} {
-        margin-left: percentage( $i / $columns );
+        margin-left: percentage(calc($i / $columns));
       }
     }
 
     @for $i from 0 through $columns {
       .pull-m-#{$i} {
-        margin-right: percentage( $i / $columns );
+        margin-right: percentage(calc($i / $columns));
       }
     }
   }
-
 }
