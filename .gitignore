@@ -3,3 +3,4 @@ _site/
 node_modules
 .npmrc
 todo.md
+smt_resources/

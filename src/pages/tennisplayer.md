@@ -1,5 +1,5 @@
 ---
-layout: mainpage
+layout: mainpage.njk
 title: Tennisplayer.net | Scott Murphy Tennis Pro
 description: John Yandell encouraged me to start writing for Tennisplayer.net and that has spawned a better understanding of the things I do as a teaching pro.
 nav: Tennisplayer.net

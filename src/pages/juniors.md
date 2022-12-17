@@ -1,10 +1,10 @@
 ---
-layout: mainpage
+layout: mainpage.njk
 title: Juniors | Scott Murphy Tennis Pro
 description: I marvel how often I do things on the court that I did when I was a junior. To me it’s representative of how important one’s early, developmental years as a tennis player are.
 nav: Juniors
 permalink: /juniors/
-image: '/images/matous-backhand.jpg'
+image: "/images/matous-backhand.jpg"
 navweight: 4
 tags: navpage
 ---
@@ -32,7 +32,6 @@ Moseley and I have been working together since he was in the 2nd grade. Now he�
 <iframe width="560" height="315" src="https://www.youtube.com/embed/OuH1SfaZWQ8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <em>Owen serving<em>
-
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/GffWoa0HKJg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: default.njk
 ---
 
 {% from "macros.njk" import article %}

@@ -1,5 +1,5 @@
 ---
-layout: mainpage
+layout: mainpage.njk
 title: Lessons with Scott | Scott Murphy Tennis Pro
 description: Scott offers lessons on the Paradise Court in Ross California. Juniors and Adults, novice or advanced, will improve their game through Scott’s instruction.
 nav: Lessons

@@ -1,4 +1,4 @@
 {
-  "layout": "scottshot",
+  "layout": "scottshot.njk",
   "tags": "posts"
 }

@@ -1,10 +1,6 @@
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 
 module.exports = function (eleventyConfig) {
-  eleventyConfig.setBrowserSyncConfig({
-    files: "./_site/css/**/*.css",
-  });
-
   // Copy the css/images/js/data to their respective _site dirs
   eleventyConfig.addPassthroughCopy("css");
   eleventyConfig.addPassthroughCopy("images");

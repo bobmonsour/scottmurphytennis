@@ -1,5 +1,5 @@
 ---
-layout: mainpage
+layout: mainpage.njk
 title: Testimonials | Scott Murphy Tennis Pro
 description: Hear the perspective of the students that Scott has taught over the years.
 nav: Testimonials

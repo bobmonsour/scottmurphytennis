@@ -1,5 +1,5 @@
 ---
-layout: mainpage
+layout: mainpage.njk
 title: About Scott | Scott Murphy Tennis Pro
 description: Scott Murphy is one of the most sought after USPTA tennis pros in California. He is a top ranked senior open player and former multi-sport athlete at Cal Berkeley.
 nav: About

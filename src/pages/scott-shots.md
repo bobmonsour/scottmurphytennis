@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: default.njk
 title: Scott Shots | Scott Murphy Tennis Pro
 description: Scott Shots are Scott's thoughts on various aspects of the game of tennis.
 nav: Scott Shots
