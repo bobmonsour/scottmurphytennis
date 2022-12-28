@@ -6,7 +6,9 @@
   <title>{% if title %}{{ title }}{% else %}{{ site.title }}{% endif %}</title>
   <meta name='description' content='{% if description %}{{ description | safe }}{% else %}{{ site.description }}{% endif %}'>
 
-  <link rel="canonical" href="{{ page.url }}">
+  <link rel="canonical" href="{% if site.env == 'prod' %}{{ site.prod_url}}{% else %}{{site.dev_url}}{% endif %}{{ page.url }}">
+
+  {# <link rel="canonical" href="{{ page.url }}"> #}
   <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" }}">
 
   <!-- Twitter Card -->
