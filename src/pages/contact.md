@@ -9,7 +9,7 @@ navweight: 7
 tags: navpage
 ---
 
-Contact Scott today for more information, or an introductory lesson at (415) 845-3331 or [scott@scottmurphytennis.net](mailto:scott@scottmurphytennis.net).
+Contact Scott today for more information, or an introductory lesson at (415) 845-3331 or [scottmrph@yahoo.com](mailto:scottmrph@yahoo.com).
 
 > I’m very passionate about both teaching and playing the sport of tennis. I believe in my ability to help anyone improve their game at any stage in their development. Players who truly have the desire to improve just need the right information and encouragement.
 
